@@ -1,0 +1,25 @@
+// INFINITE TEXT
+.scrollingText 
+  height 90px
+  overflow hidden
+  position relative
+  background #ffcd1a
+  white-space nowrap
+
+.scrollingText p
+  font-size 24px;
+  color #fff
+  position absolute
+  width 100%
+  height 100%
+  margin 0
+  line-height 3.5
+  text-align center
+  /* Starting position */
+  -moz-transformtranslateX(100%)
+  -webkit-transformtranslateX(100%)  
+  transformtranslateX(100%)
+  /* Apply animation to this element */  
+  -moz-animation scrollingText 30s linear infinite
+  -webkit-animation scrollingText 30s linear infinite
+  animation scrollingText 30s linear infinite

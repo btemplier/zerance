@@ -1,0 +1,82 @@
+// SLIDER
+.wrapperSlider
+  overflow hidden
+  padding-right 100px
+  @media (max-width: 768px)
+    padding-right 20px
+.slick-list
+  overflow initial
+.slideItem
+  width 1300px
+  height 815px
+  @media (max-width: 768px)
+    height 400px
+  &.slide_01
+    background url("../images/Artboard_1.jpg")
+  &.slide_02
+    background url("../images/Artboard_2.jpg")
+.containerSlide
+  width 500px
+  float right
+  padding 50px 25px
+  background #FFF
+  margin 250px 150px 0 0
+  text-align center  
+  h3
+    font-size 22px
+    font-family Karla,sans-serif
+    text-transform uppercase
+  h4
+    font-size 50px
+  p
+    font-size 18px
+    margin-bottom: 13px;
+    margin-top: 13px;
+  .seeMore
+    color #000
+    text-decoration none
+    padding 5px
+    background url("../images/underline.png") no-repeat bottom
+    background-size contain
+    font-weight bold
+    font-size 20px
+    transition all 1s
+    &:hover
+      font-style italic
+      opacity 0.7
+      transition all 1s
+  @media (max-width: 768px)
+    width 250px
+    margin-right 50px
+    margin-top 70px
+    h3
+      font-size 14px
+    h4
+      font-size 26px
+    p
+      font-size 12px
+  .seeMoreLight
+    padding 0 5px
+    font-weight 100
+.slick-arrow
+  display block
+  text-indent -9999px
+  width 100px
+  height 100px
+  background url("../images/ribbon-design.svg") no-repeat top left;
+  background-size contain
+  border 0
+  outline none
+  cursor pointer
+  position absolute
+  top 45%
+  right -70px
+  transition all .5s
+  &:hover
+    opacity 0.5
+    transition all .5s
+  @media (max-width: 768px)
+    width 50px
+    height 50px
+    right 0px
+  
